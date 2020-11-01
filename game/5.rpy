@@ -2370,5 +2370,3 @@ label ep5cont5:
                 i "\" You always get your way.\""
                 a "\" I always try to.\""
                 jump ep6
-
-                

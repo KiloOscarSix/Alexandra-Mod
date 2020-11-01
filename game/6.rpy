@@ -2481,7 +2481,3 @@ label ep6cont8:
                 a "\" Good night.\""
                 p "\" Good night.\""
                 jump ep7
-
-
-
-                

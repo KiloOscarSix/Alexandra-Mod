@@ -2000,7 +2000,7 @@ label ep17cont4:
                 with dissolve
                 " You give her a kiss and go to your own room."
                 jump ep17end
-
+                
 label ep17end:
                 scene end
                 jump ep18

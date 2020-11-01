@@ -2214,5 +2214,3 @@ label ep14cont6:
                     with dissolve
                     $ renpy.pause ()
                     $ MainMenu(confirm=False)()
-
-                    

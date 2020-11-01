@@ -1938,7 +1938,7 @@ label dannyhandjob:
                     pause 0.03
                     "1a14"
                     pause 0.03
-                    "1a15" 
+                    "1a15"
                     pause 0.03
                     "1a16"
                     pause 0.03

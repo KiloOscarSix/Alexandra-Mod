@@ -2939,6 +2939,7 @@ label ep18alexlie:
                 jump ep18end
 
 label ep18end:
+                jump ep19
                 scene end
                 with dissolve
                 $ renpy.pause ()

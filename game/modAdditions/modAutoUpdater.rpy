@@ -1,6 +1,4 @@
 init python:
-    modConfigPath = os.path.join(os.getcwd(), "game", "oscarAdditions", "modConfig.txt")
-
     try:
         import requests
         import hashlib
@@ -22,10 +20,13 @@ init python:
             else:
                 return False
 
-        def updateChecker():
-            try:
-                if not isUpToDate(modConfigPath, "https://raw.githubusercontent.com/KiloOscarSix/Alexandra-Mod/master/game/oscarAdditions/modConfig.txt"):
-                    return True
-            except:
+    modConfigPath = os.path.join(config.basedir, "game", "modAdditions", "modConfig.txt")
+
+    def updateChecker():
+        try:
+            if not isUpToDate(modConfigPath, "https://raw.githubusercontent.com/KiloOscarSix/Alexandra-Mod/master/game/modAdditions/modConfig.txt"):
+                return True
+            else:
                 return False
+        except:
             return False

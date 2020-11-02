@@ -58,8 +58,8 @@ define adriana = GalleryItem("Adriana", 1, "day5izzyshower", "5/232.webp")
 define adriana = GalleryItem("Adriana", 1, "galleryScene3", "8/23.webp")
 define adriana = GalleryItem("Adriana", 1, "galleryScene4", "8/23.webp")
 
-define danny = GalleryItem("Danny", 1, "dannyhandjob", "2/185.webp")
-define danny = GalleryItem("Danny", 1, "galleryScene1", "4/227.webp")
+define galleryDanny = GalleryItem("Danny", 1, "dannyhandjob", "2/185.webp")
+define galleryDanny = GalleryItem("Danny", 1, "galleryScene1", "4/227.webp")
 
 define Jenny = GalleryItem("Jenny", 1, "ep15jenny", "15/al-17-153-Beauty.webp")
 

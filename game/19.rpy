@@ -1225,7 +1225,7 @@ label ep19cont3:
                 a "\" Well, because I'm a ditzy girl.\""
                 a "\" And with my dad out of the house, I want to spend some with father figures from my life, of course.\""
                 a "\" Bogdan, Anton, and the rest.\""
-                a "\" Tonight, it's Anton.\""
+                a "\" Tonight, it's Bogdan.\""
                 hide 19newalex142
                 show 19newalex143
                 with dissolve
@@ -2289,6 +2289,7 @@ label ep19cont4:
 
 label ep19end:
 
+                jump ep20
                 scene end
                 with dissolve
                 $ renpy.pause ()

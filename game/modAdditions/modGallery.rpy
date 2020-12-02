@@ -69,6 +69,7 @@ define alice = GalleryItem("Alice", 1, "ep11alice2", "11/277.webp")
 define jamie = GalleryItem("Jamie", 1, "ep10jamieyes", "10/93.webp")
 
 define other = GalleryItem("Other", 1, "ep14nar", "14/al-16-154-Beauty.webp")
+define other = GalleryItem("Other", 1, "ep20tanyayes", "20/al-22-136-Beauty.webp")
 
 
 default galleryPageNumber = 1

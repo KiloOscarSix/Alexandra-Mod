@@ -487,7 +487,7 @@ label ep19cont1:
                 with dissolve
                 " She points at you."
                 dk "\" Keep your friend in bed.\""
-                dk "\" No wondering the halls.\""
+                dk "\" No wandering the halls.\""
                 hide 19newalex61
                 show 19newalex62
                 with dissolve
@@ -566,7 +566,7 @@ label ep19cont1:
                     i "\" Hey!.\""
                     p "\" Hey. What are you up to?\""
                     i "\" Just doing some cooking.\""
-                    i "\" Alex said she was to busy.\""
+                    i "\" Alex said she was too busy.\""
                     i "\" She locked herself in her dad's office.\""
                     p "\" I see.\""
                     i "\" What's going on?\""
@@ -621,7 +621,7 @@ label ep19cont1:
                     show 19newalex83
                     with dissolve
                     a "\" We always have to prepare for the worst.\""
-                    a "\" They're operating him tomorrow?\""
+                    a "\" They're operating on him tomorrow?\""
                     p "\" The embolization thing, yes.\""
                     a "\" The what?\""
                     " You tell her about the conversation you had with the doctor."
@@ -1319,11 +1319,11 @@ label ep19cont3:
                 a "\" Plan to have one long party while he's gone.\""
                 bog "\" He he...\""
                 bog "\" With cake, of course.\""
-                a "\" Lot's of cake.\""
+                a "\" Lots of cake.\""
                 hide 19newalex153
                 show 19newalex152
                 with dissolve
-                bog "\" Any word for the big man?\" He asks you."
+                bog "\" Any word from the big man?\" He asks you."
                 p "\" No.\""
                 p "\" Just called today and said for me to look after the girls.\""
                 hide 19newalex152
@@ -1335,7 +1335,7 @@ label ep19cont3:
                 show 19newalex155
                 with dissolve
                 " Dinner rambles on with Alex and Bogdan reminiscing about her childhood."
-                " With Bogdan downing drink after drink at her and Izzy encouragement."
+                " With Bogdan downing drink after drink at her and Izzy's encouragement."
                 hide 19newalex155
                 show 19newalex156
                 with dissolve

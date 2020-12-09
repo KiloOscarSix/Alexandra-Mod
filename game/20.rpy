@@ -624,7 +624,7 @@ label ep20:
                 p "\" Meet me at the gym tonight.\""
                 p "\" We'll talk there.\""
                 ja "\" Alright.\""
-                if alicesex == True:
+                if alicesex == False:
                     hide 20newalex142
                     show 20newalex89
                     with dissolve
@@ -749,48 +749,7 @@ label ep20:
                     " You stand back up."
                     ali "\" You're leaving?\""
                     p "\" I have to.\""
-                    p "\" But I want to leave something with you first.\""
                     hide 20newalex88
-                    show 20newalex90
-                    with dissolve
-                    " You pull out the bag with the jewelry."
-                    ali "\" Ohh...\""
-                    ali "\" Is that...\""
-                    p "\" Yes.\""
-                    p "\" I'm not giving them to you, though.\""
-                    p "\" Just leaving them here for a while.\""
-                    hide 20newalex90
-                    show 20newalex91
-                    with dissolve
-                    ali "\" For how long?\""
-                    p "\" I'm not sure.\""
-                    ali "\" Do you know how nice these are?\""
-                    p "\" Ahh...\""
-                    p "\" Not my strong suit.\""
-                    hide 20newalex91
-                    show 20newalex92
-                    with dissolve
-                    " She grabs the bag from you, and cradles in her arms."
-                    ali "\" So, nice.\""
-                    p "\" Not giving them to you.\""
-                    p "\" I can't.\""
-                    hide 20newalex92
-                    show 20newalex93
-                    with dissolve
-                    ali "\" I heard you.\""
-                    ali "\" But I can use them while they're here, right.\""
-                    p "\" Use them?\""
-                    p "\" What for?\""
-                    hide 20newalex93
-                    show 20newalex94
-                    with dissolve
-                    ali "\" You'll see.\""
-                    ali "\" Don't worry. I'll send you pics.\""
-                    p "\" Ohh...\""
-                    p "\" Ok.\""
-                    ali "\" I promise, they'll be tasteful.\""
-                    ali "\" He he...\""
-                    hide 20newalex94
                     show 20newalex95
                     with dissolve
                     " You give her a kiss before you leave."
@@ -850,6 +809,70 @@ label ep20:
                     lenny "\" Heh.\""
                     lenny "\" Don't worry.\""
                     lenny "\" We have it covered.\""
+                    hide 20newalex76
+                    show 20newalex238
+                    with dissolve
+                    " That's when Alice walks in from the bathroom."
+                    ali "\" Hey!\""
+                    p "\" Oh, hi.\""
+                    hide 20newalex238
+                    show 20newalex239
+                    with dissolve
+                    lenny "\" We have work to do, sis.\""
+                    hide 20newalex239
+                    show 20newalex240
+                    with dissolve
+                    ali "\" Pays well?\""
+                    p "\" It will.\""
+                    p "\" But I'm glad that I ran into you.\""
+                    p "\" I have something to leave with you.\""
+                    hide 20newalex240
+                    show 20newalex90
+                    with dissolve
+                    " You pull out the bag with the jewelry."
+                    ali "\" Ohh...\""
+                    ali "\" Is that...\""
+                    p "\" Yes.\""
+                    p "\" I'm not giving them to you, though.\""
+                    p "\" Just leaving them here for a while.\""
+                    hide 20newalex90
+                    show 20newalex91
+                    with dissolve
+                    ali "\" For how long?\""
+                    p "\" I'm not sure.\""
+                    ali "\" Do you know how nice these are?\""
+                    p "\" Ahh...\""
+                    p "\" Not my strong suit.\""
+                    hide 20newalex91
+                    show 20newalex92
+                    with dissolve
+                    " She grabs the bag from you, and cradles in her arms."
+                    ali "\" So, nice.\""
+                    p "\" Not giving them to you.\""
+                    p "\" I can't.\""
+                    hide 20newalex92
+                    show 20newalex93
+                    with dissolve
+                    ali "\" I heard you.\""
+                    ali "\" But I can use them while they're here, right.\""
+                    hide 20newalex93
+                    show 20newalex75
+                    with dissolve
+                    lenny "\" Jesus.\""
+                    hide 20newalex75
+                    show 20newalex93
+                    with dissolve
+                    p "\" Use them?\""
+                    p "\" What for?\""
+                    hide 20newalex93
+                    show 20newalex94
+                    with dissolve
+                    ali "\" You'll see.\""
+                    lenny "\" No, he won't.\""
+                    p "\" Ohh...\""
+                    p "\" Ok.\""
+                    ali "\" He he...\""
+                    hide 20newalex94
                     jump ep20cont1
                     
 label ep20cont1:

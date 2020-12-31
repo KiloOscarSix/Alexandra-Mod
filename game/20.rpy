@@ -2196,9 +2196,7 @@ label ep20cont3:
                 jump ep20end
                 
 label ep20end:
-
-                scene end
-                with dissolve
+                jump ep21
                 $ renpy.pause ()
                 $ MainMenu(confirm=False)()      
                 

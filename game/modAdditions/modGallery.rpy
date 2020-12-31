@@ -54,9 +54,9 @@ define isabella = GalleryItem("Isabella", 1, "galleryScene5", "7/212.webp")
 define isabella = GalleryItem("Isabella", 1, "ep12cont8", "7/236.webp")
 define isabella = GalleryItem("Isabella", 1, "ep14izzy", "14/al-16-9-Beauty.webp")
 
-define adriana = GalleryItem("Adriana", 1, "day5izzyshower", "5/232.webp")
-define adriana = GalleryItem("Adriana", 1, "galleryScene3", "8/23.webp")
-define adriana = GalleryItem("Adriana", 1, "galleryScene4", "8/23.webp")
+define adriana = GalleryItem("Adriana", 1, "ep5adi2", "5/232.webp")
+define adriana = GalleryItem("Adriana", 1, "ep8yesadi", "8/23.webp")
+define adriana = GalleryItem("Adriana", 1, "galleryScene8", "17/al-19-61-Beauty.webp")
 
 define galleryDanny = GalleryItem("Danny", 1, "dannyhandjob", "2/185.webp")
 define galleryDanny = GalleryItem("Danny", 1, "galleryScene1", "4/227.webp")

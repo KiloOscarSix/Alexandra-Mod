@@ -1350,3 +1350,20 @@ screen screen70:
                 background "gui/button/no.png"
                 hover_background "gui/button/noa.png"
                 action Jump("ep20tanyano")
+
+screen screen71:
+            textbutton(""):
+                area(1600, 200, 200, 50)
+                background "gui/button/yes.png"
+                hover_background "gui/button/yesa.png"
+
+                action Call("ep22bodyyes")
+
+
+
+            textbutton(""):
+                area(1600, 900, 200, 50)
+                background "gui/button/no.png"
+                hover_background "gui/button/noa.png"
+
+                action Jump("ep22bodyno")

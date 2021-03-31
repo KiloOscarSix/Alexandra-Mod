@@ -1323,7 +1323,7 @@ label ep23dannyyes:
                 danny "\" Now I do feel short changed.\""
                 p "\" Nothing I can do about that.\""
                 p "\" Try to get some sleep.\""
-				$renpy.end_replay()
+                $renpy.end_replay()
                 hide 23newalex122
                 show 23newalex123
                 with dissolve
@@ -1852,7 +1852,7 @@ label ep23cont4:
                     show 23newalex188
                     with dissolve
                     " To your surprise, she kisses you back."
-					label galleryScene11:
+                    label galleryScene11:
                     hide 23newalex188
                     show 23newalex189
                     with dissolve
@@ -2054,7 +2054,7 @@ label ep23cont4:
                     p "\" That was not about you.\""
                     i "\" Between you and Claire, I get it.\""
                     p "\" Exactly.\""
-					$renpy.end_replay()
+                    $renpy.end_replay()
                     hide 23newalex199
                     show 23newalex200
                     with dissolve

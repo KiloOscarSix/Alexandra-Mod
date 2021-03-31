@@ -1,4 +1,5 @@
 init python:
+    import math
     galleryItems = []
 
     class GalleryItem:

@@ -158,12 +158,12 @@ label ep22:
                 show 22newalex17
                 with dissolve
                 " Outside Dima is waiting to take you all back to the villa."
-                d "\" So, how did you fuck up?\""
-                d "\" First time I had to pick you up from jail.\""
+                di "\" So, how did you fuck up?\""
+                di "\" First time I had to pick you up from jail.\""
                 p "\" Nothing.\""
-                d "\" My bad.\""
-                d "\" Didn't mean to say you fucked up.\""
-                d "\" What did those bastards falsely accuse you of?\""
+                di "\" My bad.\""
+                di "\" Didn't mean to say you fucked up.\""
+                di "\" What did those bastards falsely accuse you of?\""
                 p "\" Hitting someone.\""
                 hide 22newalex17
                 show 22newalex18
@@ -188,7 +188,7 @@ label ep22:
                 hide 22newalex20
                 show 22newalex21
                 with dissolve
-                d "\" Back to the villa?\""
+                di "\" Back to the villa?\""
                 a "\" Yeah.\""
                 hide 22newalex21
                 show 22newalex22
@@ -197,9 +197,9 @@ label ep22:
                 hide 22newalex22
                 show 22newalex21
                 with dissolve
-                d "\" They were still sleeping when we left.\""
-                d "\" Those two old fucks?\""
-                d "\" I doubt they've even woken up.\""
+                di "\" They were still sleeping when we left.\""
+                di "\" Those two old fucks?\""
+                di "\" I doubt they've even woken up.\""
                 hide 22newalex21
                 show 22newalex22
                 with dissolve
@@ -211,10 +211,10 @@ label ep22:
                 hide 22newalex23
                 show 22newalex24
                 with dissolve
-                d "\" What the fuck is happening?\""
-                d "\" I'm being kept in the dark both by and Alex.\""
+                di "\" What the fuck is happening?\""
+                di "\" I'm being kept in the dark both by and Alex.\""
                 p "\" I know.\""
-                d "\" I want some answers.\""
+                di "\" I want some answers.\""
                 p "\" I know that too.\""
                 p "\" Have some patience.\""
                 hide 22newalex24
@@ -850,12 +850,12 @@ label ep22cont3:
                 show 22newalex98
                 with dissolve
                 " You take the bag and go out the door."
-                d "\" The hell is that?\""
+                di "\" The hell is that?\""
                 p "\" Shoes.\""
-                d "\" Shoes?\""
+                di "\" Shoes?\""
                 p "\" Alex wants me to take some of her shoes back to my place.\""
-                d "\" That is SOME?\""
-                d "\" Fucking princess.\""
+                di "\" That is SOME?\""
+                di "\" Fucking princess.\""
                 hide 22newalex98
                 show 22newalex100
                 with dissolve
@@ -1598,7 +1598,7 @@ label ep22cont4:
                     hide 22newalex117
                     show 22newalex155
                     with dissolve
-                    d "\" Getting dropped off?\""
+                    di "\" Getting dropped off?\""
                     p "\" Car broke down.\""
                     jump ep22cont5
                     
@@ -1612,7 +1612,7 @@ label ep22cont4:
                     hide 22newalex117
                     show 22newalex155
                     with dissolve
-                    d "\" Getting dropped off?\""
+                    di "\" Getting dropped off?\""
                     p "\" Car broke down.\""
                     jump ep22cont5
                 
@@ -1806,9 +1806,9 @@ label ep22cont5:
                 show 22newalex182
                 with dissolve
                 " You get back to the villa."
-                d "\" Is that...\""
-                d "\" Boss?\""
-                d "\" Boss, are you back?\""
+                di "\" Is that...\""
+                di "\" Boss?\""
+                di "\" Boss, are you back?\""
                 hide 22newalex182
                 show 22newalex183
                 with dissolve
@@ -1818,7 +1818,7 @@ label ep22cont5:
                 hide 22newalex183
                 show 22newalex184
                 with dissolve
-                d "\" Boss?\""
+                di "\" Boss?\""
                 hide 22newalex184
                 show 22newalex185
                 with dissolve
@@ -1828,9 +1828,9 @@ label ep22cont5:
                 hide 22newalex185
                 show 22newalex186
                 with dissolve
-                d "\" He won't talk to me.\""
+                di "\" He won't talk to me.\""
                 p "\" Yeah.\""
-                d "\" The fuck did I do?\""
+                di "\" The fuck did I do?\""
                 p "\" He's just tired, I'm sure.\""
                 hide 22newalex186
                 show 22newalex187
@@ -1914,11 +1914,11 @@ label ep22cont5:
                 hide 22newalex200
                 show 22newalex201
                 with dissolve
-                d "\" What the hell is up with the boss?\""
+                di "\" What the hell is up with the boss?\""
                 p "\" He's fine.\""
                 p "\" Don't worry about it.\""
                 p "\" The question is, do you still want your goddess?\""
-                d "\" Aaaa... Emma?\" He whispers."
+                di "\" Aaaa... Emma?\" He whispers."
                 hide 22newalex201
                 show 22newalex202
                 with dissolve
@@ -1926,7 +1926,7 @@ label ep22cont5:
                 jump ep22end
                 
 label ep22end:
-
+                jump ep23
                 scene end
                 with dissolve
                 $ renpy.pause ()

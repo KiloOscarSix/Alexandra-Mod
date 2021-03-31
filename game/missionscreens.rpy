@@ -1367,3 +1367,20 @@ screen screen71:
                 hover_background "gui/button/noa.png"
 
                 action Jump("ep22bodyno")
+
+screen screen72:
+            textbutton(""):
+                area(1600, 200, 200, 50)
+                background "gui/button/yesa.png"
+                hover_background im.MatrixColor("gui/button/yesa.png", im.matrix.brightness(0.2))
+
+                action Call("ep23dannyyes")
+
+
+
+            textbutton(""):
+                area(1600, 900, 200, 50)
+                background "gui/button/no.png"
+                hover_background "gui/button/noa.png"
+
+                action Jump("ep23dannyno")

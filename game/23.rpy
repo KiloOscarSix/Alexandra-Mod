@@ -2092,7 +2092,7 @@ label ep23cont4:
                     jump ep23end
                     
 label ep23end:
-
+                jump ep24
                 scene end
                 with dissolve
                 $ renpy.pause ()

@@ -55,6 +55,7 @@ define isabella = GalleryItem("Isabella", "galleryScene5", "7/212.webp")
 define isabella = GalleryItem("Isabella", "ep12cont8", "7/236.webp")
 define isabella = GalleryItem("Isabella", "ep14izzy", "14/al-16-9-Beauty.webp")
 define isabella = GalleryItem("Isabella", "galleryScene11", "23/al-25-194_nvidia.webp")
+define isabella = GalleryItem("Isabella", "galleryScene12", "24/al-26-93_nvidia.webp")
 
 define adriana = GalleryItem("Adriana", "ep5adi2", "5/232.webp")
 define adriana = GalleryItem("Adriana", "ep8yesadi", "8/23.webp")

@@ -378,8 +378,8 @@ label ep20:
                 show 20newalex44
                 with dissolve
                 " He takes another puff."
-                phil "\" We're having his mom come down for identification.\""
-                phil "\" But yes, it's him.\""
+                phil "\" We're quite sure.\""
+                phil "\" Yes, it's him.\""
                 p "\" How did he get there.\""
                 phil "\" How should I know?\""
                 p "\" Isn't that what you do?\""
